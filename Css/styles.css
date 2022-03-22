@@ -1,0 +1,568 @@
+body{
+    background:#021c33;
+}
+.header{
+    background: linear-gradient(to right,orangered,orange,orangered);
+    text-align: center;
+    padding: 3px;
+   
+}
+.header-top{
+    display: inline-flex;
+    font-family: times;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+}
+.number{
+    background: #000000;
+    color: white;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 25px;
+}
+.bar-nav{
+    background:white;
+    border: 1px solid white;
+    width: 100%;
+    padding: 15px;
+}
+nav{
+    display: inline-flex;
+}
+.nav li a{
+   text-decoration: none;
+   color: black;
+   font-family: cursive;
+   margin: 5px;
+   padding: 5px;
+   display: inline-block;
+}
+.nav li a:hover{
+    color: orangered;
+}
+.logo{
+    margin-right: 110px;
+    margin-left: 70px;
+    font-family: cusive ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.prod{
+    width: 400px;
+    height: 40px;
+    opacity: 0.5;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background: rgb(247, 98, 30);
+    border: 1px solid white;
+    border-radius: 5px;
+    font-weight:bold ;
+    color: white;
+    height: 40px;
+}
+input[type="submit"]:hover{
+    background: rgb(255, 81, 0);
+}
+.bi-person, .bi-question-circle, .bi-cart3{
+    margin: 5px;
+    font-size: 20px;
+}
+.bi-cart4{
+    font-size: 35px;
+}
+.menu li {
+    list-style-type: none;
+}
+.menu li a{
+    color: #000000;
+    font-family: cursive;
+    font-size: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu li a:hover{
+    color: orangered;
+}
+.container{
+    margin-top: 5px;
+}
+.menu{
+    background: #fff;
+    height: 380px;
+    padding: 12px;
+    line-height: 29px;
+    border-radius: 5px;
+    
+}
+.menu2{
+    background: #fff;
+    padding: 3px;
+    margin-bottom: 5px;
+    width: 200px;
+    height: 174px;
+    border-radius: 5px;
+   
+}
+.menu2 li a{
+    color: #000000;
+    font-family: cursive;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 9px;
+    margin-left: 2px;
+
+}
+.menu2 li {
+ list-style-type: none;
+}
+
+.shop{
+    font-size: 10px;
+    padding: 20px;
+    margin-left: 35px;
+    
+}
+.d-block{
+    width: 100%;
+    height: 150%;
+}
+.slide img {
+    width: 700px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.slides{
+    width: calc(700px * 4);
+    animation: defile 30s infinite;
+}
+.slide{
+    float: left;
+}
+.slider{
+    width: 700px;
+    overflow: hidden;
+    cursor:  pointer;
+    border-radius: 5px;
+}
+@keyframes defile{
+    0%{
+        transform: translateX(0);
+    }
+    10%{
+        transform: translateX(0);
+    }
+    16%{
+        transform: translateX(-600px);
+    } 
+    26%{
+        transform: translateX(-600px);
+    } 
+    32%{
+        transform: translateX(-1200px);
+    } 
+    42%{
+        transform: translateX(-1200px);
+    } 
+    64%{
+        transform: translateX(-1800px);
+    } 
+    74%{
+        transform: translateX(-1800px);
+    } 
+    100%{
+        transform: translateX(0);
+    }
+    110%{
+        transform: translateX(0);
+    }
+}
+
+.bi-shop-window{
+    margin-right: 2px;
+    font-size: 15px;
+    border-radius: 15px;
+    color: orangered;
+    padding: 5px;
+   
+}
+
+.fa-credit-card-alt{
+    margin-right: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 10px;
+    color: orangered;
+}
+.fa-dropbox{
+    margin-right: 5px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 15px;
+    color: orangered;
+}
+.prime img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.fa-apple,.fa-star-half-o,.fa-heartbeat,.fa-black-tie,.fa-shopping-bag,.fa-plane,.fa-mobile,.fa-television,.fa-desktop,.bi-shop{
+    margin: 2px;
+    margin-right: 5px;
+}
+.fa-ellipsis-h{
+    margin: 2px;
+    margin-right: 5px;
+    border: 1px solid #000000;
+    border-radius: 20px;  
+    padding: 2px;
+}
+.shops li{
+    list-style-type: none;
+    background: white;
+    width: 260px;
+    padding: 12px;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: -40px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.shops li .fa-shopping-bag{
+    margin-right: 10px;
+    border: 1px solid rgb(168, 21, 21);;
+    background: rgb(168, 21, 21);
+    border-radius: 25px;
+    padding: 12px;
+    color: white;
+    font-size: 20px;
+}
+.shops li .fa-plane{
+    margin-right: 10px;
+    border: 1px solid blue;
+    background: blue;
+    border-radius: 25px;
+    padding: 12px;
+    color: white;
+    font-size: 20px;
+}
+.shops li .fa-phone{
+    margin-right: 10px;
+    border: 1px solid orangered;
+    background: orangered;
+    border-radius: 25px;
+    padding: 12px;
+    color: white;
+    font-size: 21px;
+}
+.shops li .fa-star-half-o{
+    margin-right: 10px;
+    border: 1px solid orangered;
+    background: orangered;
+    border-radius: 25px;
+    padding: 12px;
+    color: white;
+    font-size: 20px;
+}
+.containers img{
+    width: 150px;
+    border-radius: 5px;
+    margin-right: 3px;
+}
+.produit{
+    margin: 5px;
+    padding: 10px;
+}
+.produits{
+    background: white;
+    width: 84%;
+    padding: 15px;
+    margin-left: 112px ;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.MesProd{
+    display: inline-flex;
+   
+}
+.MesProd img{
+    width: 75%;
+    text-align: center;
+}
+.prod1:hover{
+    transform: scale(1.0);
+    box-shadow: 1px 1px 1px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.prod2:hover{
+    transform: scale(1.0);
+    box-shadow: 1px 1px 1px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.prod3:hover{
+    transform: scale(1.0);
+    box-shadow: 1px 1px 1px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.prod4:hover{
+    transform: scale(1.0);
+    box-shadow: 1px 1px 1px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.prod5:hover{
+    transform: scale(1.0);
+    box-shadow: 1px 1px 1px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.prod6:hover{
+    transform: scale(1.0);
+    box-shadow: 1px 1px 1px 1px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.reduction{
+   float: right;
+   background: wheat;
+   color: orangered;
+   padding: 5px;
+   font-size: 15px;
+   font-weight: bold;
+}
+.name{
+    font-family: cursive;
+}
+h6{
+    font-family: cursive;
+    font-weight: bold;
+}
+h4{
+    font-family: times;
+    text-align: left;
+}
+.names{
+    font-family: times;
+    text-align: center;
+}
+.MesProd img.espace{
+    width: 50%;
+}
+.pubs{
+    display: inline-flex;
+    margin-left: 112px;
+    width: 84%;
+    background:white;
+    padding: 10px;
+    border-radius: 5px;
+    border-radius: 5px;
+  
+}
+.sam img{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+.super img{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.sup img{
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 150px;
+    border-radius: 10px;
+
+}
+.sa img{
+    width: 140%;
+    padding: 5px;
+    border-radius: 10px;
+   
+    height: 100%;
+}
+.MesProd img.seau{
+    width: 63%;
+}
+.supr img{
+    width: 75%;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.sar img{
+    width: 160%;
+    padding: 5px;
+    border-radius: 10px;
+    height: 100%;
+}
+    
+.fin img
+{
+   width: 100%;
+    border-radius: 10px;
+}
+.prix img{
+    text-align: center;
+    padding: 5px;
+}
+.produits h5{
+    text-align: left;
+}
+.texte{
+ text-align: justify;
+ font-size: 14px;
+ font-family: times;
+}
+.produits p span{
+    font-weight: bold;
+}
+.sous{
+    text-decoration: underline;
+    cursor: pointer;
+}
+button:hover{
+color: orangered;
+border: orangered;
+}
+.icon .bi-cart4{
+    margin: 5px;
+    background: orangered;
+    border-radius: 30px;
+    padding: 5px;
+    color: white;
+    font-size: 30px;
+    width: 50px;
+}
+.foot{
+    font-size: 12px;
+
+    color: white;
+}
+h5{
+    color: white;
+    font-size: 12px;
+}
+.fa-facebook,.fa-cc-visa,.fa-twitter,.fa-instagram{
+    font-size: 30px;
+    color: white;
+    padding: 11px;
+}
+.fa-facebook:hover{
+    color: orangered;
+}
+.fa-twitter:hover{
+    color: orangered;
+}
+.fa-instagram:hover{
+    color: orangered;
+}
+.fa-cc-visa:hover{
+    color: orangered;
+}
+.img{
+    border: 1px solid white;
+    width: 49%;
+    height: 80%;
+}
+.fa-apple{
+    font-size: 27px;
+    color: white;
+    margin-top: 15px;
+    padding: 2px;
+    
+}
+.fa-play{
+    font-size: 27px;
+    color: white;
+    margin-top: 15px;
+    padding: 2px;
+    
+}
+.app{
+    display: inline-flex;
+     border: 1px solid white;
+    margin: 5px;
+    padding: 1px;
+    border-radius: 10px;
+   width: 100px;
+   cursor: pointer;
+}
+.row div.app span{
+    font-size: 10px;
+    color: white;
+    padding: 11px;
+    font-family: times;
+
+}
+.logo{
+    margin-left: 10px;
+}
+.all-app{
+    display: inline-flex;
+}
+
+/*
+.containers{
+    background: red;
+    width: 83%;
+    margin-left: 123px;
+    border-radius: 5px;
+    padding: 25px;
+}
+.col1,.col2,.col3,.col4,.col5{
+    
+    padding: 20px;
+}
+.col0{
+    width: 50px;
+   padding: 15px;
+}
+.col0:hover{
+   transform: scale(1.1);
+   box-shadow: 1px 1px 1px 1px;
+}
+.col1:hover{
+ transform: scale(1.1);
+ box-shadow: 1px 1px 1px 1px;
+}
+.col2:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 1px 1px;
+   }
+   .col3:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 1px 1px;
+   }
+   .col4:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px 1px 1px;
+   }
+   .col5:hover{
+    transform: scale(1.0);
+    box-shadow: 1px 1px 1px 1px black;
+   }
+   .demander{
+       font-size: 20px;
+       font-family: cursive;
+   }
+
+}
+*/
